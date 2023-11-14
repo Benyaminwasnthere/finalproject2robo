@@ -208,8 +208,8 @@ def sort_tuple(tup):
     return tup
 
 if __name__ == "__main__":
-  #file = input("New file name, end it with .npy: ")
-  file = "arm_configs.npy"
+  print("arm_configs.npy for ta to copy and paste")
+  file = input("New file name, end it with .npy: ")
   target_x = float(input("Enter Target x value: "))
   target_y = float(input("Enter Target y value: "))
   k = int(input("Enter K: "))
